@@ -16,7 +16,6 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     whereis bash
-    sudo apt-get update -y
     sudo apt-get install -y mkisofs
     pwd
     ls -ltr
